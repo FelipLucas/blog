@@ -1,0 +1,299 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@200..700&family=Shadows+Into+Li');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+html{
+    background-color: #000000;
+}
+
+body{
+    display: flex;
+    width: 93%;
+    margin-left: 4rem;
+    background-color: #000000;
+}
+.section-page01{
+    width: 55%;
+    height: 1600px;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    background-color: #0f0f0f;
+    margin-right: 2rem;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 21rem;
+    margin-top: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.p-light{
+    font-weight: 450;
+    color: rgba(255, 255, 255, 0.498);
+}
+
+.p-light:hover{
+    transition: .5s;
+    color: #fff;
+}
+
+.p-bolder{
+    font-weight: 600;
+}
+
+.agency-section h1{
+    padding: 0 20px;
+    font-size: 13.5rem;
+    color: #fff;
+}
+
+#container-agency{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#container-agency img{
+    width: 80px;
+}
+
+#container-agency p{
+    color: #ffffff9a;
+}
+
+.div-form{
+    height: 30px;
+    border-top: 2px solid #ffffffb0;
+    border-bottom: 2px solid #ffffffb0;
+}
+
+form{
+    display: flex;
+    gap: 2rem;
+    padding: 5px 30px;
+}
+
+label{
+    color: #ffffff;
+}
+
+select{
+    color: #000000;
+}
+
+.container-section{
+    display: flex;
+    gap: 1rem;
+    padding: 2rem 2rem;
+}
+
+.img-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.img-container img{
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.title-container h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.title-container p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffffbc;
+}
+
+.div2-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 13rem;
+    margin-top: 10rem;
+}
+
+.description-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.description-container p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/*Page 02*/
+.section-page02{
+    width: 55%;
+    height: 1600px;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    background-color: #bca8a8;
+}
+
+.header-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18rem;
+    margin-top: 10px;
+}
+
+.nav-2 a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.p-light2{
+    font-weight: 450;
+    color: #00000063;
+}
+
+.p-light2:hover{
+    transition: .5s;
+    color: #000000;
+}
+
+.p-bolder2{
+    font-weight: 600;
+}
+
+.div-about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15rem;
+    margin-bottom: 10rem;
+    margin-left: 40px;
+}
+
+.div-about p{
+    font-size: 13px;
+    color: #000000;
+}
+
+.div-about h1{
+    margin-top: -5rem;
+    padding: 20px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 11rem;
+    color: #000000;
+}
+
+.div-about2{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    float: right;
+    margin-top: -10rem;
+    padding: 20px;
+}
+
+.div-about2 p{
+    font-size: 15px;
+    color: #000000;
+}
+
+.div-shit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30rem;
+}
+
+.img-shit1{
+    width: 170px;
+    margin-left: 10px;
+}
+
+.img-shit2{
+    width: 170px;
+    margin-right: 0px;
+    margin-left: -2em;
+}
+
+.div-shit h2{
+    margin-left: -2rem;
+    padding: 20px;
+    font-family: "Anton", sans-serif;
+    font-weight: 700;
+    font-size: 10rem;
+    color: #000000;
+}
+
+.div-form2{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+}
+
+.div-form2 p{
+    padding: 5px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #000000;
+}
+
+.section-footer{
+    display: flex;
+    gap: 5.4rem;
+    margin: 2rem 1.5rem;
+}
+
+.div-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.div-footer h3{
+    margin-bottom: 1.5rem;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.div-footer a{
+    text-decoration: none;
+    color: #000000ca;
+}

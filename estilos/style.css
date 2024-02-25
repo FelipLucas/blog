@@ -98,11 +98,13 @@ form{
 }
 
 label{
-    color: #ffffff;
+    color: #ffffffc1;
 }
 
 select{
-    color: #000000;
+    color: #ffffffe4;
+    background-color: #0f0f0f;
+    border: none;
 }
 
 .container-section{
@@ -278,6 +280,11 @@ select{
     display: flex;
     gap: 5.4rem;
     margin: 2rem 1.5rem;
+}
+
+.responsivo{
+    display: flex;
+    gap: 5.4rem;
 }
 
 .div-footer{

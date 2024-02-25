@@ -12,13 +12,16 @@
 html{
     background-color: #000000;
 }
-
 body{
     display: flex;
     width: 93%;
-    margin-left: 4rem;
+    margin-left: 4.6rem;
     background-color: #000000;
 }
+::-webkit-scrollbar{
+    overflow: hidden;
+}
+
 .section-page01{
     width: 55%;
     height: 1600px;

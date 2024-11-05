@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@200..700&family=Shadows+Into+Li');
+
 *{
     margin: 0;
     padding: 0;
@@ -89,6 +90,7 @@ nav a{
 }
 
 .div-form{
+    max-width: 100%;
     height: 30px;
     border-top: 2px solid #ffffffb0;
     border-bottom: 2px solid #ffffffb0;
@@ -112,6 +114,7 @@ select{
 
 .container-section{
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
     padding: 2rem 2rem;
 }
@@ -239,8 +242,8 @@ select{
 
 .div-shit{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     margin-top: 30rem;
 }
 
